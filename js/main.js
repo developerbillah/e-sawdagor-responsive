@@ -46,6 +46,11 @@
 		});
 	});
 
+	// Products Slider Slick
+	$('.slider').slick();
+	
+	
+	
 	// Products Widget Slick
 	$('.products-widget-slick').each(function() {
 		var $this = $(this),
